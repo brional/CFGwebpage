@@ -1,0 +1,72 @@
+
+body {
+  background-color: #000000;
+  color: #B7CECE;
+  font-size: 1.5em;
+  font-family: ‘Pragati Narrow’, sans-serif;
+  letter-spacing: .5ch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+nav {
+    margin: none;
+    padding: none;
+}
+h1 {
+    color: #BAB700;
+    font-size: 2.5em;
+    font-family: ‘Anton’, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5ch;
+    padding: 0;
+    line-height: 2em;
+    margin: auto;
+}
+h2 {
+    color: #FB9E60;
+    font-size: 1.5em;
+    font-family: ‘Anton’, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5ch;
+    line-height: 1em;
+    margin: auto;
+}
+h3 {
+    color: #BAB700;
+    font-size: 1.3em;
+    font-family: ‘Anton’, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .25ch;
+}
+a {
+  color: #BAB700;
+  text-decoration: none;
+}
+ul, li {
+    list-style: none;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+a:hover {
+  color: #FB9E60;
+  text-decoration: underline;
+}
+
+.map {
+    margin: auto;
+}
+.map path {
+    fill: #79BA00;
+    stroke: #B7CECE;
+    stroke-width: 2px;
+}
+.map path:hover {
+    fill: #FB9E60;
+    stroke: none;
+}

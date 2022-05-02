@@ -1,0 +1,81 @@
+/* Colour Codes
+Background: #000000
+Header/footer background: #B3D89C
+Text: #F9DBBD
+Links: #FCA17D
+Hover decoration: bold
+Button colour: #FCA19D*/
+/* Styles you can use for more than one page */
+body {
+    background-color: #000000;
+    color: #F9DBBD;
+    font-size: 1.5em;
+    font-family: "Pragati Narrow", sans-serif;
+    letter-spacing: 0.5ch;
+   /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;*/
+  }
+  nav {
+    background-color: #B3D89C;
+    color: #000000;
+  }
+  footer {
+    background-color: #B3D89C;
+    color: #000000;
+  }
+  button {
+    margin: auto;
+    background-color: #BAB700;
+  }
+  h1 {
+    color: #BAB700;
+    font-size: 2.5em;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5ch;
+    padding: 0;
+    line-height: 2em;
+  }
+  h2 {
+    color: #FCA17D;
+    font-size: 1.5em;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5ch;
+    line-height: 1em;
+  }
+  h3 {
+    color: #FCA17D;
+    font-size: 1.3em;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.25ch;
+  }
+  a {
+    color: #FCA17D;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #fb9e60;
+    font-weight: bold;
+  }
+  ul,
+  li {
+    list-style: none;
+    margin-left: 0;
+  }
+  /* Map specific styles */
+  .map {
+    margin: auto;
+  }
+  .map path {
+    fill: #FCA19D;
+  }
+  .map path:hover {
+    fill: #B3D89C;
+    stroke: none;
+  }
+  /* Animal page styles */
