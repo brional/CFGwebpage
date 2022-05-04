@@ -67,15 +67,4 @@ body {
     list-style: none;
     margin-left: 0;
   }
-  /* Map specific styles */
-  .map {
-    margin: auto;
-  }
-  .map path {
-    fill: #FCA19D;
-  }
-  .map path:hover {
-    fill: #B3D89C;
-    stroke: none;
-  }
   /* Animal page styles */
