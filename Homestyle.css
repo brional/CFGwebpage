@@ -1,4 +1,5 @@
 
+/*Global styles for all pages*/
 body {
   background-color: #000000;
   color: #B7CECE;
@@ -58,6 +59,8 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Map-specific styles*/
+
 .map {
     margin: auto;
 }
@@ -70,3 +73,5 @@ a:hover {
     fill: #FB9E60;
     stroke: none;
 }
+
+/*Animal Page styles*/
